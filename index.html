@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+      <title>Sound Identification Web App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+        <center>
+          <div class="col-xs-12 header_div">
+          <h1 style="color: crimson; font-weight: bolder;">Animal Sound Identification</h1>
+          <h4>Note: Play Sounds like Meowing,Barking, Mooing or Roaring.</h4>
+          </div>
+  
+          <div class="main_div">
+            <center>
+                <p>.</p>
+              <button class="btn btn-warning">Start</button>
+              <h4 id="audio_name">I Can Hear:</h4>
+              <h4 id="accuracy">Accuracy:</h4><br>
+              <img src="ear.png" id="img" width="300" height="300"><br><p>.</p>
+            </center>
+          </div>
+          
+          <div class="footer">
+            Developed by Keerat Singh
+          </div>
+        </center>
+  <script src="main.js"></script>
+    </body>
+  </html>

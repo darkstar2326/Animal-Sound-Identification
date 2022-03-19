@@ -1,0 +1,27 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.header_div{
+    color: chocolate;
+    background-color: white;
+}
+
+.header_div h4{
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.main_div{
+    background-color: pink;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    color: black !important;
+    text-align: center;
+    width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+}
